@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'civilapp.middleware.error_handler.GlobalExceptionMiddleware'
 ]
 
 ROOT_URLCONF = 'civilapp.urls'
